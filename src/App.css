@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+input {
+  width: 550px;
+}
+
+.bar {
+  background: #eee;
+  height: 10px;
+  border-radius: 30px;
+  width: 550px;
+  margin: 20px auto;
+}
+
+.bar div {
+  height: 10px;
+  transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0.1s;
+  border-radius: 30px;
+}
+
+.low {
+  background: #da5347;
+}
+
+.medium {
+  background: #ffcf50;
+}
+
+.high {
+  background: #75ba50;
+}
