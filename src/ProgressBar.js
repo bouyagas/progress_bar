@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class ProgressBar extends Component {
-  render() {
-    return (
-      <div className="bar">
-        <div
-          className={this.props.class}
-          style={{ width: `${this.props.width}%` }}
-        ></div>
-      </div>
-    );
-  }
+export default function ProgressBar(props) {
+  return (
+    <div className="bar">
+      <div className={props.class} style={{ width: `${props.width}%` }}></div>
+    </div>
+  );
 }
